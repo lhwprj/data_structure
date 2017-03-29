@@ -1,6 +1,6 @@
 /*
 code name		: Insertion Sort
-running time	: ¥È(n^2)
+running time		: O(n^2)
 memory			: X(array)
 */
 #include <stdio.h>
