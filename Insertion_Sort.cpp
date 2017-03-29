@@ -9,7 +9,7 @@ int main(void)
 {
 	int arr[] = { 5, 1, 4, 25, 7, 11, 9 };
 	printf("\nArray before sorting : ");
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < 7; i++)
 	{
 		printf("%d ",*(arr+i));
 	}
@@ -18,7 +18,7 @@ int main(void)
 	Insertion_Sort(arr);
 	/////////////////
 	printf("Array after sorting : ");
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < 7; i++)
 	{
 		printf("%d ", *(arr + i));
 	}
